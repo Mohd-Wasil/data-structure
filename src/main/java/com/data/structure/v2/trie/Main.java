@@ -1,0 +1,16 @@
+package com.data.structure.v2.trie;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Trie newTrie = new Trie();
+
+        newTrie.insert("API");
+        newTrie.insert("APIS");
+        newTrie.search("AP");
+        newTrie.search("APIS");
+        newTrie.delete("APIS");
+        newTrie.search("APIS");
+
+    }
+}
